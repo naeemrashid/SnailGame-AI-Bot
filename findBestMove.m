@@ -24,7 +24,7 @@ scores = zeros(1,index);
             fprintf('Near to Opponent: \n');
         end
         if(isScoreAdded(board,temp))
-            scores(i)=scores(i)+1;
+            scores(i)=scores(i)+10;
         end
     %[chase index]=chaseOpponent(board,turn);
 %    fprintf('Got you nigga: %d , best move: %d',chase,index);
